@@ -160,6 +160,35 @@ a:focus {
   color: #1abaff;
 }
 
+/* 
+component auther 
+*/
+
+.c-auther {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 16px;
+}
+
+.c-auther__image {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+.c-auther__name,
+.c-auther__meta {
+  margin-bottom: 0;
+}
+.c-auther__name {
+  font-size: 16px;
+  line-height: 24px;
+}
+.c-auther__meta {
+  font-family: 'Inter Web', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
